@@ -4,7 +4,7 @@ def funcion (numero):
         return False
     elif(numero == 2):
         print ("NUMERO PRIMO")
-        return True
+        return False
     else:
         for i in (2, numero-1, 1):
             if (numero % 2 == 0):
